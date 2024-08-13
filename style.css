@@ -1,0 +1,357 @@
+body {
+    font-family: "Poppin", sans-serif;
+}
+.button {
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(19/16);
+    border-radius: 25px;
+    border: 2px solid#E7E7E7;
+    color: #F5830B;
+}
+.button:hover {
+    color: #fff;
+    background: linear-gradient(103deg, #F67102 5.1%, #F4A91E 86.29%);
+}
+li {
+    list-style: none;
+}
+.header {
+    margin-top: 30px;
+}
+.header-menu {
+    gap: 38px;
+}
+.header-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #635F85;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.content {
+    max-width: 496px;
+}
+.content-title {
+    margin-top: 18px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: calc(56/50);
+    color: #051441;
+}
+.content-node {
+    margin-top: 50px;
+}
+.content-text {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(26/16);
+    color: #5D677E;
+}
+.mt {
+    margin-top: 100px;
+}
+.content-play {
+    transform: translate(-34px, -26px);
+}
+.button-start {
+    font-size: 16px;
+    font-weight: 500;
+    color: #F5830B;
+    padding: 16px 29px;
+    border-radius: 41px;
+    border: 2px solid #E7E7E7;
+}
+.button-start:hover {
+    background: linear-gradient(98deg, #F67906 0.67%, #F4A81D 89.89%);
+    color: #fff;
+}
+.content-watch {
+    font-size: 16px;
+    font-weight: 500;
+    color: #101D48;
+}
+.logo {
+    background-color: #F4F7FD;
+    margin: 0 auto;
+    padding: 69px 0;
+}
+.grow {
+    margin-top: 140px;
+}
+.grow-title {
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: calc(50/40);
+    color: #051441;
+    max-width: 426px;
+    text-align: center;
+}
+.grow-text {
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5D677E;
+}
+.grow-bottom {
+    margin-top: 73px;
+}
+.grow-item {
+    padding: 40px 44px;
+    border-radius: 13px;
+    border: 2px solid #EDEFF6;
+    background: #FFF;
+    cursor: pointer;
+}
+.grow-item:hover {
+    box-shadow: 0px 24px 60px 0px rgba(94, 122, 148, 0.10);
+    transition: 0.5s;
+}
+.grow-name {
+    margin-top: 26px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #051441;
+}
+.grow-content {
+    margin-top: 19px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7F8EA1;
+}
+.intro {
+    margin-top: 76px;
+}
+.intro-title {
+    margin-top: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: calc(50/40);
+    color: #051441;
+    max-width: 422px;
+}
+.intro-text {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(26/16);
+    color: #79899D;
+    max-width: 502px;
+    margin-bottom: 37px;
+}
+.intro-button {
+    font-size: 14px;
+    font-weight: 500;
+    color: #F5830B;
+    border-radius: 41px;
+    padding: 18px 30px;
+    border: 2px solid #E7E7E7;
+}
+.intro-button:hover {
+    color: #fff;
+    background: linear-gradient(98deg, #F67906 0.67%, #F4A81D 89.89%);
+}
+.business {
+    margin-top: 112px;
+    background-color: #F4F8FD;
+}
+.business-cover {
+    padding-top: 117px;
+}
+.business-title {
+    max-width: 442px;
+}
+.client-view {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: calc(26/16);
+    color: #F4A11A;
+}
+.client-quality {
+    gap: 10px;
+    transform: translateY(-28px);
+}
+.client-icon {
+    transform: translateY(-3px);
+}
+.client-feedback {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(26/16);
+    color: #8189A3;
+    transform: translateY(5px);
+}
+.blog {
+    margin-top: 140px;
+}
+.blog-blog:hover {
+    border-radius: 17px;
+    background: #FFF;
+    box-shadow: 0px 46px 100px -31px rgba(0, 0, 0, 0.10);
+}
+.blog-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: calc(50/40);
+    color: #051441;
+    max-width: 454px;
+}
+.blog-text {
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5D677E;
+    max-width: 606px;
+    margin-bottom: 78px;
+}
+.blog-desc {
+    padding: 33px 23px;
+}
+.blog-header {
+    font-size: 18px;
+    font-weight: 600;
+    color: #051441;
+    cursor: pointer;
+}
+.blog-header:hover {
+    color: #F58C11;
+}
+.blog-content {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: calc(20/13);
+    color: #6D7F94;
+}
+.fill-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: calc(58/48);
+    color: #051441;
+}
+.fill-text {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+    color: #787E86;
+}
+.fill-button {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 30px; 
+    border-radius: 26.5px;
+    background: linear-gradient(96deg, #F67102 22.34%, #F4AC22 103.2%);
+    transform: translateX(-30px);
+}
+.fill-email {
+    all: unset;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6B7D93;
+    padding: 15px 21px;
+    border-radius: 26.5px;
+    background: #FFF;
+}
+.fill-cover {
+    border-radius: 67px;
+    background: #F4F6FD;
+    padding: 77px 161px;
+}
+.fill {
+    margin-top: 140px;
+}
+.footer {
+    margin-top: 140px;
+    background-color: #052347;
+}
+.footer-desc {
+    margin-top: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: calc(22/14);
+    color: #AFACCD;
+    max-width: 235px;
+}
+.footer-top {
+    padding: 105px 0;
+    border-bottom: 1px solid #11317C;
+}
+.footer-head {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: calc(35/18);
+    color: #D9E1F0;
+    padding-left: 40px;
+}
+.footer-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: calc(37/14);
+    color: #AFACCD;
+}
+.footer-copy {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8B9FCF;
+    padding: 29px 0 0 0;
+}
+@media screen and (max-width: 767.98px) {
+    .header-menu {
+        display: none;
+    }
+    .header-button {
+        display: none;
+    }
+    .content-play,.content-watch {
+        display: none;
+    }
+    .grow-text {
+        text-align: center;
+    }
+    .fill-cover {
+        padding: 30px;
+    }
+    .fill-title {
+        font-size: 40px;
+    }
+    .footer-content {
+        margin-top: 20px;
+    }
+    .content-image {
+        margin-top: 50px;
+    }
+    .footer-logo {
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    .header-menu {
+        display: none;
+    }
+    .header-button {
+        display: none;
+    }
+    .content-play,.content-watch {
+        display: none;
+    }
+    .grow-text {
+        text-align: center;
+    }
+    .fill-cover {
+        padding: 30px;
+    }
+    .fill-title {
+        font-size: 40px;
+    }
+    .footer-content {
+        margin-top: 20px;
+    }
+    .content-image {
+        margin-top: 50px;
+    }
+}
